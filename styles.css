@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #792248;
@@ -6,9 +8,15 @@ body {
     color: #fafafa;
 }
 
+/* Nav------------------------- */
+
+.bg-dark {
+    background-image: url(/assets/seats.png);
+}
+
 .carousel {
   margin-bottom: 1rem;
-  background: url("https://i.pinimg.com/originals/59/26/10/59261034bcf132bd5ea72bfee7992531.jpg");
+  background: url("https://i.pinimg.com/564x/cf/76/bd/cf76bdae9074b5ba1786b46edf5345fe.jpg");
 
 }
 .carousel-caption {
@@ -35,25 +43,47 @@ body {
   padding-left: 12px;
 }
 
-h2 {
-  font-weight: 400;
-}
-
 .col-xs-4 p {
   margin-right: 1rem;
   margin-left: 1rem;
   padding-left: 12px;
 }
+/*-----------------------------------Special paddings/margins/text*/
 
 
-/* Featurettes
-------------------------- */
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+} 
+
+h1, 
+h3, 
+h4 {
+ margin: 0;
+
+}
+
+.uppercase {
+    text-transform: uppercase;    
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* Featurettes------------------------- */
 
 .featurette-divider {
   margin: 5rem 0; 
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 400;
   line-height: 1;
@@ -62,11 +92,9 @@ h2 {
 }
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/*-------------------------------------------------- Responsive CSS*/
 
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
+@media (max-width: 767px) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -78,13 +106,33 @@ h2 {
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    padding-left: 12px  }
+
+  .featurette-heading {
+    font-size: 50px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1800px){
   .featurette-heading {
     margin-top: 7rem;
   }
 }
 
-/* Footer-------------------------------------------------- */
+
+/*-----------------------------------Footer*/
+
+footer {
+    background-color: #000000;
+    font-weight: 400;
+    min-height: 120px;
+    margin: 0;
+}
 
 .social-links{
     padding-bottom: 15px;
