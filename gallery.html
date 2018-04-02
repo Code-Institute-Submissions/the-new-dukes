@@ -2,107 +2,188 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The New Dukes - Comedy Sketch Trio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>The New Dukes - Comedy Sketch Trio</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
 </head>
 <!-- <body style="background-image :url(https://i.pinimg.com/564x/ed/1a/09/ed1a09ac9305585733eadcee8472a868.jpg)"> -->
 
 <body>
 
-  <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"> <span class="sr-only">Toggle navigation</span>
+   <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"> <span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-
-        <a class="navbar-brand" href="/index.html">The New Dukes</a>
+            <a class="navbar-brand" href="/index.html">The New Dukes</a>
+         </div>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav">
+               <li><a href="/index.html">Home</a>
+               </li>
+               <li><a href="/shows.html">Shows</a>
+               </li>
+               <li><a href="/bookus.html">Book us!</a>
+               </li>
+               <li class="active"><a href="/gallery.html">Gallery</a>
+               </li>
+            </ul>
+         </div>
       </div>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="nav navbar-nav">
-          <li><a href="/index.html">Home</a>
-          </li>
-          <li><a href="/shows.html">Shows</a>
-          </li>
-          <li class="active"><a href="/bookus.html" target="_blank">Book us!</a>
-          </li>
-          <li><a href="/gallery.html">Gallery</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="jumbotron text-center">
-    <h1 class="title">The New Dukes</h1>
-    <h4 class="subtitle">Welcome to the online home of The New Dukes, sketch trio extraordinaire!</h4>
-    <h5 class="description hidden-xs">Here you can find info on shows to come, photos and clips of shows past, and anything that happens in between. <br> So take a tour through our digital home and get to grips with the inner workings of
-      <br>Luke, Marcus and Damian's brains</h5>
-    <p><a href="/bookus.html" target="_blank" class="btn btn-success">Book us NOW!</a>
-    </p>
-  </div>
-  <div class="container fluid">
-    <img src="https://i.pinimg.com/originals/b9/0f/2a/b90f2a18ec7cf88c7a086e1366488589.png" class="img-responsive" alt="The New Dukes">
-  </div>
+   </nav>
+   <div class="jumbotron text-center">
+      <h1 class="title">The New Dukes</h1>
+      <h4 class="subtitle">Welcome to the online home of The New Dukes, sketch trio extraordinaire!</h4>
+      <h5 class="description hidden-xs">Here you can find info on shows to come, photos and clips of shows past, and anything that happens in between. <br> So take a tour through our digital home and get to grips with the inner workings of
+         <br>Luke, Marcus and Damian's brains</h5>
+      <p><a href="/bookus.html" target="_blank" class="btn btn-danger">Book us NOW!</a>
+      </p>
+   </div>
+   <div class="container fluid">
+      <img src="https://i.pinimg.com/originals/b9/0f/2a/b90f2a18ec7cf88c7a086e1366488589.png" class="img-responsive" alt="The New Dukes">
+   </div>
 
-  <section class="container-fluid">
-    <div class="row bg-color-contact">
-      <div>
-        <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
-        <h5 class="uppercase text-center">Let's work together</h5>
-      </div>
-    </div>
-    <div class="center-form">
-      <form>
-        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-        <textarea rows="5" name="Projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-        <button type="submit" class="btn btn-secondary center-block"> Send Project Request</button>
-
-      </form>
-    </div>
-  </section>
-  <hr>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-9">
-        <footer>
-          <h4 class="uppercase general-sub">OurSocial</h4>
-          <footer class="container-fluid">
-            <div id="footer-details" class="row">
-              <div class="col-sm-4">
-                <ul class="list-inline social-links">
-                  <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
-                  </li>
-                  <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
-                  </li>
-                  <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-                  </li>
-                  <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
-                  </li>
-                </ul>
-              </div>
+   <section>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <h2>Past Shows</h2>
             </div>
-          </footer>
-          <p>&copy; Misigno</p>
-        </footer>
-      </div>
-    </div>
-  </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+               <div class="thumbnail">
+                  <img src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg" alt="...">
+                  <div class="caption">
+                     <h3><a href="">Panda <small class="glyphicon glyphicon-chevron-right"></small></a></h3>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+               <div class="thumbnail">
+                  <img src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg" alt="...">
+                  <div class="caption">
+                     <h3><a href="">Panda <small class="glyphicon glyphicon-chevron-right"></small></a></h3>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+               <div class="thumbnail">
+                  <img src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg" alt="...">
+                  <div class="caption">
+                     <h3><a href="">Panda <small class="glyphicon glyphicon-chevron-right"></small></a></h3>
 
+                  </div>
+               </div>
+            </div>
+         </div>
+   </section>
+
+   <section>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <h2>Random</h2>
+               <hr>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+               <a href="#" class="thumbnail" data-toggle="modal" data-target="#random1">
+      <img src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg" alt="...">
+    </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+               <a href="#" class="thumbnail" data-toggle="modal" data-target="#random2">
+      <img src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg" alt="...">
+    </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+               <a href="#" class="thumbnail" data-toggle="modal" data-target="#random3">
+      <img src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg" alt="...">
+    </a>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" id="random1">
+            <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                     <h4 class="modal-title">Random1</h4>
+                  </div>
+                  <img class="img-responsive" src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg">
+
+               </div>
+            </div>
+         </div>
+
+         <div class="modal fade" tabindex="-1" role="dialog" id="random2">
+            <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                     <h4 class="modal-title">Random2</h4>
+                  </div>
+                  <img class="img-responsive" src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg">
+
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" tabindex="-1" role="dialog" id="random3">
+            <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                     <h4 class="modal-title">Random3</h4>
+                  </div>
+                  <img class="img-responsive" src="http://blogs.culturamas.es/fernandojlopez/files/2015/03/Cortina-de-Teatro-1024x682.jpg">
+
+               </div>
+            </div>
+         </div>
+   </section>
+
+   <hr>
+
+   <div class="container">
+      <div class="row">
+         <div class="col-xs-9">
+            <footer>
+               <h4 class="uppercase general-sub">OurSocial</h4>
+               <footer class="container-fluid">
+                  <div id="footer-details" class="row">
+                     <div class="col-sm-4">
+                        <ul class="list-inline social-links">
+                           <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                           </li>
+                           <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                           </li>
+                           <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                           </li>
+                           <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                           </li>
+                           <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                           </li>
+                           <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </footer>
+               <p>&copy; Misigno</p>
+            </footer>
+         </div>
+      </div>
+   </div>
 </body>
 
 </html>
