@@ -1,29 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*NOT LINKED YET, FIGURE OUT*/
-
-
-
-
-/*----------------------------Background image*/
-/*body {
-    background-color: #BD0910;
-background-image: url("https://i.pinimg.com/564x/ed/1a/09/ed1a09ac9305585733eadcee8472a868.jpg");
-    background-repeat: no-repeat;
-   background-position: right bottom ;
-   background-size: 5em auto;
-   background-attachment: fixed;
-}*/
 /*----------------------------Jumbotron*/
+.jumbotron {
+    padding-top: 124px;
+    padding-bottom: 30px;
+}
 
-.jumbotron{
-  padding: 3em;
+/*-----------------------------------Margins*/
+
+h1, 
+h2, 
+h3, 
+h4 {
+ margin: 0;
+}
 
 
-/*----------------------------Main image*/
+/*----------------------------Titles*/
 
-.img-responsive{
-  width: 100%;
+.title{
+    font-family: "Exo", sans-serif;
+    font-weight: 800;
+}
+.subtitle{
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+.description{
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+}
+/*-----------------------------------Contact*/
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 
 
 /*----------------------------Footer*/
@@ -63,4 +84,44 @@ background-image: url("https://i.pinimg.com/564x/ed/1a/09/ed1a09ac9305585733eadc
 #footer-details{
     padding: 20px;
     
+}
+/*----------------------------Media Queries*/
+
+
+@media (min-width: 300px) {
+    .body {
+        padding: 10px;
+    }
+    .nav{
+        max-width: 70%
+    }
+    .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+    .jumbotron {
+    padding: 124px 15px 30px 15px;
+    }
+}
+
+@media (min-width: 768px) {
+   .jumbotron {
+    padding: 124px 15px 30px 15px;
+    }
+    .jumbotron.h1{
+    padding: 124px 15px 30px 15px
+    }
+.jumbotron.h2{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .jumbotron {
+    padding: 124px 15px 30px 15px;
+    }
 }
