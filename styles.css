@@ -1,9 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700);
 
-#body {
-    font-family: "Roboto","Exo", sans-serif;
+#body{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cardo', serif;
 }
-
+.body{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cardo', serif;
+}
 /*----------------------------Background colors*/
 
 .bg-color-jumbotron{
@@ -14,9 +17,8 @@
     background-color: #970000;
 }
 
-.bg-color-footer{
-    background-color: #680000;
-}
+
+
 
 /*----------------------------Jumbotron*/
 .jumbotron {
@@ -26,48 +28,55 @@
 
 /*----------------------------Titles Jumbotron*/
 
-.body{
-    font-family: "Roboto";
-    }
+
     
 h1.title{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: #960018;
+    color: #fafafa;
 }
 
 h4.subtitle{
-    font-family: "Exo", sans-serif;
-    color: #ff6969;
+    font-family: "Cardo", sans-serif;
+    color: #ff9f9f;
 
 }
 h5.description{
-    font-family: "Roboto", sans-serif;
-    color: #EFD9D9;
+    font-family: "Montserrat", sans-serif;
+    color: #e1dede;
     
 /*----------------------------Titles Upcoming Shows*/
 }
 h2.title{
     font-family: "Montserrat", sans-serif;
-    color: #EFD9D9;
+    color: #e1dede;
 }
 
 h4.coming-shows-subtitle{
-    font-family: "Roboto", sans-serif;
-    color: #ff6969;
+    font-family: "Cardo", sans-serif;
+    color: #ff9f9f;
     style: none; 
 }
 
 h7.description{
-    font-family: "Roboto", sans-serif;
-    color: #EFD9D9;
+    font-family: "Montserrat", sans-serif;
+    color: #e1dede;
     
 }
+
+/*----------------------------Shows descriptions*/
+
+.right {
+    text-align: right;
+    float: right;
+}
+
+
 
 /*----------------------------Reviews*/
 h6.reviews{
     font-family: "Exo", sans-serif;
-    color: #8f8f8f;
+    color: #E1DEDE;
     font-size: 13px;
 }
 
@@ -106,26 +115,26 @@ ul {
     padding: 20px;
 }
 .social-links{
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     display: flex;
   
 }
 
 .social-links li {
-    margin-right: 10px;
+    margin-right: 20px;
     display: inline-block;
 
 }
 
 .social-links li a i{
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 20px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #970000;
+    background: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -133,7 +142,7 @@ ul {
 } 
 
 .social-links li a i:hover{
-    background: #000000;
+    background: #424242;
     
 }
 
