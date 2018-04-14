@@ -17,9 +17,6 @@ font-family: 'Cardo', serif;
     background-color: #970000;
 }
 
-
-
-
 /*----------------------------Jumbotron*/
 .jumbotron {
     padding-top: 90px;
@@ -28,8 +25,6 @@ font-family: 'Cardo', serif;
 
 /*----------------------------Titles Jumbotron*/
 
-
-    
 h1.title{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -44,9 +39,12 @@ h4.subtitle{
 h5.description{
     font-family: "Montserrat", sans-serif;
     color: #e1dede;
+}
+    
     
 /*----------------------------Titles Upcoming Shows*/
-}
+
+
 h2.title{
     font-family: "Montserrat", sans-serif;
     color: #e1dede;
@@ -63,8 +61,53 @@ h7.description{
     color: #e1dede;
     
 }
+/*h7.nameofshow{
+    font-size: 41px
+}
+
+
+.lead-lg {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .lead-lg {
+    font-size: 41px;
+  }
+}*/
+/*----------------------------Links*/
+
+.show-links li {
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+.show-links li a i{
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+    border-radius: 50%;
+    /*border:2px solid black;*/
+    font-size: 20px;
+    text-align: center;
+    color: #970000;
+    background: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+} 
+
+.show-links li a i:hover{
+    background: #424242;
+    
+}
 
 /*----------------------------Shows descriptions*/
+
 
 .right {
     text-align: right;
@@ -131,6 +174,7 @@ ul {
     height: 50px;
     padding: 15px 0;
     border-radius: 50%;
+    border:2px solid black;
     font-size: 20px;
     text-align: center;
     color: #970000;
@@ -146,3 +190,14 @@ ul {
     
 }
 
+/*----------------------------Media Queries*/
+
+
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
