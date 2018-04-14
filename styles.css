@@ -44,12 +44,24 @@ h5.description{
     
 /*----------------------------Titles Upcoming Shows*/
 
+h1.shows{
+    font-family: "Montserrat", sans-serif;
+    color: #e1dede;
+    font-size: 41px;
+}
 
 h2.title{
     font-family: "Montserrat", sans-serif;
     color: #e1dede;
-}
+    font-size: 41px;
 
+}
+h3.coming-shows-subtitle{
+    font-family: "Cardo", sans-serif;
+    color: #ff9f9f;
+    style: none;
+
+}
 h4.coming-shows-subtitle{
     font-family: "Cardo", sans-serif;
     color: #ff9f9f;
@@ -78,6 +90,7 @@ h7.description{
   }
 }*/
 /*----------------------------Links*/
+@link-color: #fafafa;
 
 .show-links li {
     margin-right: 20px;
@@ -197,7 +210,6 @@ ul {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { ... }
-
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
