@@ -18,12 +18,20 @@ font-family: 'Cardo', serif;
 }
 
 /*----------------------------Jumbotron*/
-.jumbotron {
+
+.jumbotron-header {
     padding-top: 90px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 30px;
+    width: 100%;
+
 }
 
+
 /*----------------------------Titles Jumbotron*/
+
 
 h1.title{
     font-family: "Montserrat", sans-serif;
@@ -59,13 +67,11 @@ h2.title{
 h3.coming-shows-subtitle{
     font-family: "Cardo", sans-serif;
     color: #ff9f9f;
-    style: none;
-
 }
+
 h4.coming-shows-subtitle{
-    font-family: "Cardo", sans-serif;
-    color: #ff9f9f;
-    style: none; 
+    font-family: "Montserrat", sans-serif;
+    color: #ff9f9f; 
 }
 
 h7.description{
@@ -73,41 +79,33 @@ h7.description{
     color: #e1dede;
     
 }
-/*h7.nameofshow{
-    font-size: 41px
-}
 
-
-.lead-lg {
-  margin-bottom: 20px;
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1.4;
-}
-@media (min-width: 768px) {
-  .lead-lg {
-    font-size: 41px;
-  }
-}*/
 /*----------------------------Links*/
-@link-color: #fafafa;
 
-.show-links li {
-    margin-right: 20px;
-    display: inline-block;
+.show-links li a i{
+  color: #ff9f9f !important;
+  text-decoration: none;
+}
+
+.show-links li a i{
+  color: #ff9f9f !important;
+  text-decoration: none;
+}
+
+.show-links li a i{
+  color: #ff9f9f !important;
+  text-decoration: none;
 
 }
+
 
 .show-links li a i{
     width: 50px;
     height: 50px;
-    padding: 15px 0;
-    border-radius: 50%;
-    /*border:2px solid black;*/
     font-size: 20px;
     text-align: center;
-    color: #970000;
-    background: #fafafa;
+    color: #ff9f9f !important;
+    text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -117,6 +115,10 @@ h7.description{
 .show-links li a i:hover{
     background: #424242;
     
+}
+
+#MyNavbar #navbarCollapse ul li a .bookus {
+    color: #ff9f9f;
 }
 
 /*----------------------------Shows descriptions*/
