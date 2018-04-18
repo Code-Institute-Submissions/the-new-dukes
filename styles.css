@@ -21,7 +21,7 @@ font-family: 'Cardo', serif;
 
 .jumbotron-header {
     padding-top: 90px;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
