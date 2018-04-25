@@ -20,7 +20,7 @@ font-family: 'Cardo', serif;
 /*----------------------------Jumbotron*/
 
 .jumbotron-header {
-    padding-top: 90px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
