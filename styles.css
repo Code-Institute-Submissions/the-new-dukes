@@ -1,11 +1,15 @@
 
 #body{
-font-family: 'Montserrat', sans-serif;
-font-family: 'Cardo', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cardo', serif;
 }
 .body{
-font-family: 'Montserrat', sans-serif;
-font-family: 'Cardo', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cardo', serif;
+}
+
+body{
+    padding-top: 50px;
 }
 /*----------------------------Background colors*/
 
@@ -20,7 +24,6 @@ font-family: 'Cardo', serif;
 /*----------------------------Jumbotron*/
 
 .jumbotron-header {
-    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,8 +52,8 @@ h5.description{
     font-family: "Montserrat", sans-serif;
     color: #e1dede;
 }
-    
-    
+
+
 /*----------------------------Titles Upcoming Shows*/
 
 h1.shows{
@@ -72,30 +75,37 @@ h3.coming-shows-subtitle{
 
 h4.coming-shows-subtitle{
     font-family: "Montserrat", sans-serif;
-    color: #ff9f9f; 
+    color: #ff9f9f;
 }
 
 h7.description{
     font-family: "Montserrat", sans-serif;
     color: #e1dede;
-    
+
 }
 
 /*----------------------------Links*/
 
-.show-links li a i{
-  color: #ff9f9f !important;
-  text-decoration: none;
+.show-links li a,
+.show-links li a i {
+    color: #ff9f9f !important;
+    text-decoration: none;
+}
+
+.show-links li a:hover,
+.show-links li a i:hover {
+    color: #a15a5a !important;
+    text-decoration: none;
 }
 
 .show-links li a i{
-  color: #ff9f9f !important;
-  text-decoration: none;
+    color: #ff9f9f !important;
+    text-decoration: none;
 }
 
 .show-links li a i{
-  color: #ff9f9f !important;
-  text-decoration: none;
+    color: #ff9f9f !important;
+    text-decoration: none;
 
 }
 
@@ -111,11 +121,11 @@ h7.description{
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-} 
+}
 
 .show-links li a i:hover{
     background: #424242;
-    
+
 }
 
 #MyNavbar #navbarCollapse ul li a .bookus {
@@ -149,7 +159,7 @@ blockquote .small, blockquote footer, blockquote small {
 /*----------------------------Shows*/
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 /*----------------------------Book us*/
@@ -158,9 +168,26 @@ ul {
 .center-form{
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 65%;
+    max-width: 100%;
 }
 
+/*----------------------------Gallery*/
+.title.highlight{
+    -webkit-box-shadow: 0px 8px 56px 24px rgba(16,16,16,1);
+    -moz-box-shadow: 0px 8px 56px 24px rgba(16,16,16,1);
+    box-shadow: 0px 8px 56px 24px rgba(16,16,16,1);
+}
+a.gallery-link,
+a.gallery-link i {
+    color: #ff9f9f !important;
+    text-decoration: none;
+}
+
+a.gallery-link:hover,
+a.gallery-link i:hover {
+    color: #a15a5a !important;
+    text-decoration: none;
+}
 
 
 /*----------------------------Footer*/
@@ -176,13 +203,11 @@ ul {
 .social-links{
     padding-bottom: 20px;
     display: flex;
-  
 }
 
 .social-links li {
-    margin-right: 20px;
     display: inline-block;
-
+    min-width: 160px;
 }
 
 .social-links li a i{
@@ -199,20 +224,8 @@ ul {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-} 
+}
 
 .social-links li a i:hover{
     background: #424242;
-    
 }
-
-/*----------------------------Media Queries*/
-
-
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
