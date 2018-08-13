@@ -1,6 +1,6 @@
 # Hello and welcome!
 ## This project is an exploration of USER EXPERIENCE CENTERED web design. 
-## The objective is to showcase the work of 'The New Dukes', a United Kingdom based Sketch Comedy Troupe.
+## The objective is to showcase the work of 'The New Dukes', a Sheffield (UK) based Sketch Comedy Troupe.
 
 ### The client has requested the following features for their web:
 
