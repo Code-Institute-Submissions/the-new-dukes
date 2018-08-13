@@ -4,9 +4,9 @@
 
 ### The client has requested the following features for their web:
 
-#### - A gallery for their photos and videos
+#### - A gallery for photos and videos
 #### - Contact form so they can be booked for gigs
-#### - Upcoming shows
+#### - Show their past shows
 #### - Social media links
 
 ##### This project uses HTML/5 CSS/3 Bootstrap JavaScript jQuery and more!
