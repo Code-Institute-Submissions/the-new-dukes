@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The New Dukes - Comedy Sketch Trio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/styles.css" type="text/css">
-	<link rel="stylesheet" href="/spacing-utils.css" type="text/css">
+	<link rel="stylesheet" href="/css/styles.css" type="text/css">
+	<link rel="stylesheet" href="/css/spacing-utils.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
@@ -21,73 +21,82 @@
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"> <span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button> <a class="navbar-brand" href="/index.html">The New Dukes</a>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="http://www.thenewdukes.com">The New Dukes</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="nav navbar-nav">
-					<li><a href="/index.html">Home</a>
+					<li class=" ">
+						<a href="http://www.thenewdukes.com">Home</a>
 					</li>
-					<li><a href="/shows.html">Shows</a>
+					<li class=" ">
+						<a href="http://www.thenewdukes.com/shows">Shows</a>
 					</li>
-					<li class="active"><a href="/bookus.html">Book us!</a>
+					<li class="  active ">
+						<a href="http://www.thenewdukes.com/bookings">Book us!</a>
 					</li>
-					<li><a href="/gallery.html">Gallery</a>
+					<li class=" ">
+						<a href="http://www.thenewdukes.com/gallery">Gallery</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div class="jumbotron-header text-center bg-color-jumbotron">
-		<div class="container text-center"><h1 class="title">The New Dukes</h1>
-		<h4 class="subtitle">Sketch trio extraordinaire</h4></div>
-	
+	<div class="jumbotron-header text-center bg-color-jumbotron mb-5">
+		<div class="container text-center">
+			<h1 class="title mb-2">The New Dukes</h1>
+			<h4 class="subtitle">Sketch trio extraordinaire</h4>
+		</div>
 	</div>
 
-	<section class="container-fluid">
+	<section class="container">
 		<div class="row bg-color-contact">
 			<div>
-				<h2 class="title text-center">WANNA HAVE A LAUGH?</h2>
+				<h2 class="title highlight text-center p-3">WANNA HAVE A LAUGH?</h2>
 				<h4 class="subtitle uppercase text-center">Book us for your event!</h4>
 			</div>
 		</div>
 		<div class="center-form">
-			<form>
-				<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-				<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-				<textarea rows="5" name="Projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+			<form method="post" action="http://www.thenewdukes.com/bookings">
+				<input type="hidden" name="_token" value="1E74nfqhdAclhdFGbm0rzF0nQ8VtgyE4LgWfYRT3">
+				<input type="text" name="name" class="form-control mb-3" id="fullname" placeholder="Name" />
+				<input type="text" name="email" class="form-control mb-3" id="emailaddress" placeholder="Email" />
+				<input type="date" name="date" class="form-control mb-3" id="date" placeholder="Date" />
+				<textarea rows="5" name="project_description" class="form-control mb-3" id="project_description" placeholder="Project Description"></textarea>
 				<br>
 				<button type="submit" class="btn btn-secondary center-block"> Send Booking Request</button>
 			</form>
 		</div>
 	</section>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<footer>
-					<footer class="container-fluid">
-						<div id="footer-details" class="row">
-							<div class="col-sm-4">
-								<ul class="list-inline social-links">
-									<li><a target="_blank" href="https://www.facebook.com/NewDukesComedy/"><i class="fa fa-facebook"></i></a>
-									</li>
-									<li><a target="_blank" href="https://twitter.com/NewDukesComedy"><i class="fa fa-twitter"></i></a>
-									</li>
-									<li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</footer>
-					<p>&copy; Misigno</p>
-				</footer>
+
+	<footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-md-12 text-center">
+				<ul class="list-inline social-links">
+					<li>
+						<a target="_blank" href="https://www.facebook.com/NewDukesComedy/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+					</li>
+					<li>
+						<a target="_blank" href="https://twitter.com/NewDukesComedy">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+					</li>
+					<!-- <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li> -->
+				</ul>
 			</div>
 		</div>
-	</div>
-
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p>&copy; Misigno</p>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
