@@ -81,6 +81,7 @@ p.description {
 .show-links li a {
     text-align: center;
     color: #ff9f9f;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
