@@ -69,36 +69,8 @@ p.description {
 
 /*----------------------------Links*/
 
-.show-links li a,
-.show-links li a i {
-    color: #ff9f9f !important;
-    text-decoration: none;
-}
-
-.show-links li a:hover,
-.show-links li a i:hover {
-    color: #a15a5a !important;
-    text-decoration: none;
-}
-
-.show-links li a i {
-    color: #ff9f9f !important;
-    text-decoration: none;
-}
-
-.show-links li a i {
-    color: #ff9f9f !important;
-    text-decoration: none;
-
-}
-
-
-.show-links li a i {
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-    text-align: center;
-    color: #ff9f9f !important;
+.show-links li a:hover {
+    color: #a15a5a;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -106,9 +78,10 @@ p.description {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.show-links li a i:hover {
-    background: #424242;
-
+.show-links li a {
+    text-align: center;
+    color: #ff9f9f;
+    text-decoration: none;
 }
 
 #MyNavbar #navbarCollapse ul li a .bookus {
