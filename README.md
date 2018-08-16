@@ -17,8 +17,8 @@
 
 The space utils in this CSS section have been creaated from the information in https://getbootstrap.com/docs/4.1/utilities/spacing/
 
-# Deployment of proyect
-## This proyect was deployed through the following steps
+## Deployment of proyect
+### This proyect was deployed through the following steps
 
 - Creation of a server in Digital Ocean.
 - Configured Nginx to serve static pages on the domain www.thenewdukes.com.
@@ -27,6 +27,7 @@ The space utils in this CSS section have been creaated from the information in h
 - The request from the booking form was set up to use a Php script to send an email to The New Dukes.
 - The Nginx configuration used was the following:
 
+```
 server {
     listen 80 default_server;
 
@@ -44,3 +45,4 @@ server {
         fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
     }
 }
+```
