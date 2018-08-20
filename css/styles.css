@@ -159,13 +159,16 @@ a.gallery-link i:hover {
     text-decoration: none;
 }
 
-a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-  border-color: #000000;
+a.thumbnail.active,
+a.thumbnail:focus,
+a.thumbnail:hover {
+    border-color: #000000;
 }
 
-a:focus, a:hover {
-  color: #000000;
-  text-decoration: underline;
+a:focus,
+a:hover {
+    color: #000000;
+    text-decoration: underline;
 }
 
 .modal-title {
