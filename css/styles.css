@@ -168,6 +168,13 @@ a:focus, a:hover {
   text-decoration: underline;
 }
 
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-family: "Montserrat", sans-serif;
+    color: #970000;
+}
+
 /*----------------------------Footer*/
 
 #footer-details {
