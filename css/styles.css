@@ -221,14 +221,14 @@ a:hover {
 
 @media screen and (max-width: 400px) {
     #myNavbar {
-    width: 29em;
+    width: 28em;
     }
     
-    #footer-details {
+    .footer-details {
     display: table;
     text-align: center;
     padding: 20px;
-    width: 29em;
+    width: 28em;
     }
 
     .jumbotron-header {
@@ -236,7 +236,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
-    width: 29em;
+    width: 28em;
     }
 
 }
