@@ -217,4 +217,26 @@ a:hover {
     background: #424242;
 }
 
+/*----------------------------Media queries*/
 
+@media screen and (max-width: 400px) {
+    #myNavbar {
+    width: 29em;
+    }
+    
+    #footer-details {
+    display: table;
+    text-align: center;
+    padding: 20px;
+    width: 29em;
+    }
+
+    .jumbotron-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 29em;
+    }
+
+}
