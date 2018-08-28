@@ -1,7 +1,9 @@
 # USER EXPERIENCE CENTERED DESIGN
+
 ### This is the Milestone Project for the Experience Centered Design Unit of the Full Stack Web Developer Course of Code Institute, credit-rated by Edinburgh Napier University
 
-### The objective is to create a Responsive, User Experience Centered designed, static page to showcase the work of 'The New Dukes', a Sheffield (UK) based Sketch Comedy Troupe.
+### The objective of this project is to design and execute a Responsive, User Experience Centered, static page to showcase the work of 'The New Dukes', a Sheffield (UK) based Sketch Comedy Troupe.
+
 
 ### The client has requested the following features for their web:
 
@@ -12,6 +14,8 @@
 
 This site is thought primarily for comedy fans and potential bookers and festival organisers. The client would like their users to be able to see their past work and future work, and be contacted for more performance oportunities. They also expressed they were interested in a colour palet resembling the red seats widely used in the clubs they have performed in. <p>With this in mind, a <a href='https://github.com/Mgsignorelli/the-new-dukes/blob/master/mockups.jpg'> Mockup </a> was sketched and approved by the client. </p>
 <img src='https://i.pinimg.com/originals/37/55/ad/3755adc94c251f259a57aaac155fa64c.png' alt='Red Seats Leeds Show' class='img-responsive'></img> 
+
+The website can be found in www.thenewdukes.com. 
 
                                                         
 ## Features
@@ -35,9 +39,15 @@ This site is thought primarily for comedy fans and potential bookers and festiva
 #### - Media Queries were used to control the responsive adjustments for smallest screens of the Jumbotron, Navbar and Footer. 
 
 
+
+
+
 ## Testing
 #### - This project was designed on a Mac laptop, therefore, it was actively tested in Windows platforms to avoid incompatibilities.
 #### - Extensive testing in different browsers was performed in Mac and Windows machines.
+
+
+
 
 
 ## Deployment of proyect
@@ -70,11 +80,16 @@ server {
 }
 ```
 
+
+
+
 ## Difficulties 
 #### Especially at the beginning of the project, I had a problem using the fourth version of Bootstrap with instructions for the grid design of the course, meant for version 3.3.7. Eventually, following advice given by my first mentor, I decided to start over, using version 3.3.7. 
 #### This proved difficult in the last stages of the project, when the Jumbotron Navbar and Footer were not responding as intended in smallest screens. This was eventually solved through the use of Media Queries, but I wish to keep working on this project and completely redo it with Bootstrap 4 and make sure the responsiveness does not get out of hand. 
 
+
+
 ## Content
 #### All content was provided by Marcus Newman, member of The New Dukes.
 #### The New Dukes is not a for profit organization. 
-#### The New Dukes and I are aquainted through the Sheffield comedy scene, as I too am a comedy performer.
+#### The New Dukes and I are acquainted through the Sheffield comedy scene, as I too am a comedy performer.
