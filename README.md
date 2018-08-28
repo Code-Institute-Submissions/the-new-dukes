@@ -11,7 +11,7 @@
 #### - Include Social media links
 
 This site is thought primarily for comedy fans and potential bookers and festival organisers. The client would like their users to be able to see their past work and future work, and be contacted for more performance oportunities. They also expressed they were interested in a colour palet resembling the red seats widely used in the clubs they have performed in. <p>With this in mind, a <a href='https://github.com/Mgsignorelli/the-new-dukes/blob/master/mockups.jpg'> Mockup </a> was sketched and approved by the client. </p>
-<img src='https://i.pinimg.com/originals/37/55/ad/3755adc94c251f259a57aaac155fa64c.png' alt='Red Seats Leeds Show' class='img-responsive'></img>. 
+<img src='https://i.pinimg.com/originals/37/55/ad/3755adc94c251f259a57aaac155fa64c.png' alt='Red Seats Leeds Show' class='img-responsive'></img> 
 
                                                         
 ## Features
@@ -25,6 +25,7 @@ This site is thought primarily for comedy fans and potential bookers and festiva
 #### - Gallery showcases media through the use of Modals. Available are both past shows registry and current photographs, as well as a Video made by The New Dukes exclusively for this website. 
 #### - Social Media links are present at the footer of the webpage via clear and styled icons.
 
+<img src='https://i.pinimg.com/originals/13/04/25/13042505d497e82b3d17da3541d38b99.png' alt='Red Seats Leeds Show' class='img-responsive'></img> 
 
 ## Technologies Used
 
@@ -76,3 +77,4 @@ server {
 ## Content
 #### All content was provided by Marcus Newman, member of The New Dukes.
 #### The New Dukes is not a for profit organization. 
+#### The New Dukes and I are aquainted through the Sheffield comedy scene, as I too am a comedy performer.
