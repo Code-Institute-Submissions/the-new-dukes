@@ -7,7 +7,7 @@
 
 #### - A gallery for photos and videos
 #### - Contact form so they can be booked for gigs
-#### - Show their past shows
+#### - Showcase their work, their past performances and diffusion of upcoming shows.
 #### - Include Social media links
 
 This site is thought primarily for comedy fans and potential bookers and festival organisers. The client would like their users to be able to see their past work and future work, and be contacted for more performance oportunities. They also expressed they were interested in a colour palet resembling the red seats widely used in the clubs they have performed in. <p>With this in mind, a <a href='https://github.com/Mgsignorelli/the-new-dukes/blob/master/mockups.jpg'> Mockup </a> was sketched and approved by the client. </p>
