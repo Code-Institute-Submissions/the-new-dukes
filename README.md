@@ -50,15 +50,17 @@ The website can be found in www.thenewdukes.com.
 
 
 
-## Deployment of proyect
-### This proyect was deployed through the following steps
+# Deployment of project
+
+## The environment for this project was created through the following steps
 
 - Creation of a server in Digital Ocean.
 - Configured Nginx to serve static pages on the domain www.thenewdukes.com.
 - Pulled the code down into the static serve folder from git repository https://github.com/Mgsignorelli/the-new-dukes.
 - Restarted Nginx to pick up the configuration and codebase.
 - The request from the booking form was set up to use a Php script to send an email to The New Dukes.
-- The Nginx configuration used was the following:
+
+### The Nginx configuration used was the following:
 
 ```
 server {
@@ -80,7 +82,12 @@ server {
 }
 ```
 
+## Changes to the program were deployed through the following steps
 
+- Push changes to git repository
+- ssh to DigitalOcean server
+- cd to the directory `/var/www/hosting/thenewdukes.com`
+- run the following command: `git pull origin master`
 
 
 ## Difficulties 
