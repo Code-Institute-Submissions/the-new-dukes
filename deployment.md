@@ -1,6 +1,6 @@
-# Deployment of proyect
+# Deployment of project
 
-## This proyect was deployed through the following steps
+## This project was deployed through the following steps
 
 - Creation of a server in Digital Ocean.
 - Configured Nginx to serve static pages on the domain www.thenewdukes.com.
