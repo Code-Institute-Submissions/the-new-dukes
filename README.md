@@ -90,6 +90,6 @@ server {
 
 
 ## Content
-#### All content was provided by Marcus Newman, member of The New Dukes.
-#### The New Dukes is not a for profit organization. 
-#### The New Dukes and I are acquainted through the Sheffield comedy scene, as I too am a comedy performer.
+ All content was provided by Marcus Newman, member of The New Dukes.
+ The New Dukes is not a for profit organization. 
+ The New Dukes and I are acquainted through the Sheffield comedy scene, as I too am a comedy performer.
