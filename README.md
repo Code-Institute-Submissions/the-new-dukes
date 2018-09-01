@@ -1,27 +1,23 @@
-# USER EXPERIENCE CENTERED DESIGN
+# User Centric Frontend Development Milestone Project
 
-#### This is the Milestone Project for the User Experience Centered Design Unit of the Full Stack Web Developer Course of Code Institute.
+#### This is the Milestone Project for the User Centric Frontend Development Unit, for Code Institute's Full Stack Web Developer Course.
 
-#### The objective of this project is to design and execute a Responsive, User Experience Centered, static page to showcase the work of 'The New Dukes', a Sheffield (UK) based Sketch Comedy Troupe.
+#### The objective of this project is to design and execute a Responsive, User Experience Centered, static page to showcase the work of 'The New Dukes', a Sheffield (UK) based Sketch Comedy Troupe. The site is thought primarily for comedy fans and potential bookers and festival organisers. 
 
-
-### The client has requested the following features for their web:
+#### The client has requested the following features:
 
 #### - A gallery for photos and videos
 #### - Contact form so they can be booked for gigs
 #### - Showcase their work, their past performances and diffusion of upcoming shows.
 #### - Include Social media links
+#### - Colour palet resembling red seats widely used in clubs they have performed in. 
 
-This site is thought primarily for comedy fans and potential bookers and festival organisers. 
-They also expressed they were interested in a colour palet resembling the red seats widely used in the clubs they have performed in. <p>With this in mind, a <a href='https://github.com/Mgsignorelli/the-new-dukes/blob/master/mockups.jpg'> Mockup </a> was sketched and approved by the client. </p>
+<p>With this in mind, a <a href='https://github.com/Mgsignorelli/the-new-dukes/blob/master/mockups.jpg'> Mockup </a> was sketched and approved by the client. </p>
+
 <img src='https://i.pinimg.com/originals/37/55/ad/3755adc94c251f259a57aaac155fa64c.png' alt='Red Seats Leeds Show' class='img-responsive' alt='Red Seats Leeds Show'></img> 
 <p>Red Seats</p>
 
-
-
-
-
-The website can be found in www.thenewdukes.com. 
+## The website can be found in www.thenewdukes.com. 
 
                                                         
 ## Features
@@ -45,14 +41,13 @@ The website can be found in www.thenewdukes.com.
 #### - HMTL for writing the webpage layout
 #### - CSS to customize the webpage design
 #### - Bootstrap Framework was used to organize the webpage and uniform the layout throughout. Also, the spacing utils section has been created from the information in https://getbootstrap.com/docs/4.1/utilities/spacing/
-#### - Media Queries were used to control the responsive adjustments for smallest screens of the Jumbotron, Navbar and Footer. This was eliminated after testing. 
+#### - Media Queries were used to control the responsive adjustments for smallest screens of the Jumbotron, Navbar and Footer. They were eliminated after testing. 
 
 
 
 ## Testing
 #### - This project was designed on a Mac laptop, therefore, it was actively tested in Windows platforms to avoid incompatibilities.
 #### - Extensive testing in different browsers was performed in Mac and Windows machines.
-
 #### - Testing of Screen sizes in accurate responsive mode were executed with Browserstack (https://www.browserstack.com/). Through this testing, it became clear Media Queries were not functioning in any phone. This was checked in Chrome in a Windows laptop. Customized Media Queries were then removed and the overall result improved, therefore eliminated for the final version.
 
 
@@ -96,7 +91,7 @@ server {
 }
 ```
 
-## Changes to the program were deployed through the following steps
+### Changes to the program were deployed through the following steps
 
 - Push changes to git repository
 - ssh to DigitalOcean server
