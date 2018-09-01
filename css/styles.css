@@ -216,27 +216,3 @@ a:hover {
 .social-links li a i:hover {
     background: #424242;
 }
-
-/*----------------------------Media queries*/
-
-@media screen and (max-width: 400px) {
-    #myNavbar {
-    width: 28em;
-    }
-    
-    .footer-details {
-    display: table;
-    text-align: center;
-    padding: 20px;
-    width: 28em;
-    }
-
-    .jumbotron-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-    width: 28em;
-    }
-
-}
