@@ -46,6 +46,8 @@ The website can be found in www.thenewdukes.com.
 #### - This project was designed on a Mac laptop, therefore, it was actively tested in Windows platforms to avoid incompatibilities.
 #### - Extensive testing in different browsers was performed in Mac and Windows machines.
 
+#### - Testing of Screen sizes in accurate responsive mode were executed with Browserstack (https://www.browserstack.com/). #### - Customized Media Queries were removed and the overall result improved, therefore eliminated for the final version.
+
 
 
 
