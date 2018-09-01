@@ -1,6 +1,6 @@
 # USER EXPERIENCE CENTERED DESIGN
 
-#### This is the Milestone Project for the Experience Centered Design Unit of the Full Stack Web Developer Course of Code Institute.
+#### This is the Milestone Project for the User Experience Centered Design Unit of the Full Stack Web Developer Course of Code Institute.
 
 #### The objective of this project is to design and execute a Responsive, User Experience Centered, static page to showcase the work of 'The New Dukes', a Sheffield (UK) based Sketch Comedy Troupe.
 
