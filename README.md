@@ -45,7 +45,7 @@ The website can be found in www.thenewdukes.com.
 #### - HMTL for writing the webpage layout
 #### - CSS to customize the webpage design
 #### - Bootstrap Framework was used to organize the webpage and uniform the layout throughout. Also, the spacing utils section has been created from the information in https://getbootstrap.com/docs/4.1/utilities/spacing/
-#### - Media Queries were used to control the responsive adjustments for smallest screens of the Jumbotron, Navbar and Footer. 
+#### - Media Queries were used to control the responsive adjustments for smallest screens of the Jumbotron, Navbar and Footer. This was eliminated after testing. 
 
 
 
@@ -53,7 +53,7 @@ The website can be found in www.thenewdukes.com.
 #### - This project was designed on a Mac laptop, therefore, it was actively tested in Windows platforms to avoid incompatibilities.
 #### - Extensive testing in different browsers was performed in Mac and Windows machines.
 
-#### - Testing of Screen sizes in accurate responsive mode were executed with Browserstack (https://www.browserstack.com/). #### - Customized Media Queries were removed and the overall result improved, therefore eliminated for the final version.
+#### - Testing of Screen sizes in accurate responsive mode were executed with Browserstack (https://www.browserstack.com/). Through this testing, it became clear Media Queries were not functioning in any phone. This was checked in Chrome in a Windows laptop. Customized Media Queries were then removed and the overall result improved, therefore eliminated for the final version.
 
 
 # Deployment of project
@@ -102,7 +102,7 @@ server {
 
 ## Further Work
 
-## I wish to keep working on this project and completely redo it with Bootstrap 4 and make sure the responsiveness does not get out of hand. 
+#### I wish to keep working on this project and completely redo it with Bootstrap 4 and make sure the responsiveness does not get out of hand. 
 #### I wish to transform this webpage in a blog where the client can publish their own updates and images.
 #### Another functionality I would add is booking and/or buying tickets.
 
