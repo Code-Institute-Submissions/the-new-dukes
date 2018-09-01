@@ -58,13 +58,21 @@ The website can be found in www.thenewdukes.com.
 
 # Deployment of project
 
-## The environment for this project was created through the following steps
+#### This project was deployed directly using GitHub pages and can be found in https://mgsignorelli.github.io/the-new-dukes/
+#### The website is available as well in  www.thenewdukes.com.
 
-- Creation of a server in Digital Ocean.
-- Configured Nginx to serve static pages on the domain www.thenewdukes.com.
-- Pulled the code down into the static serve folder from git repository https://github.com/Mgsignorelli/the-new-dukes.
-- Restarted Nginx to pick up the configuration and codebase.
-- The request from the booking form was set up to use a Php script to send an email to The New Dukes.
+#### - The 'thenewdukes.com' domain was purchased in cooperation with The New Dukes from Name.com
+#### - To make use of the domain, the method chosen was to configure, in iTerm, a static server through Nginx. 
+
+## The environment for this project deployment was created as follows
+
+#### - Creation of a server in Digital Ocean www.digitalocean.com.
+#### - Configured Nginx to serve static pages on the domain www.thenewdukes.com.
+#### - Pulled the code down into the static serve folder from git repository https://github.com/Mgsignorelli/the-new-dukes.
+#### - Restarted Nginx to pick up the configuration and codebase.
+#### - The request from the booking form was set up to use a Php script to send an email to The New Dukes.
+
+
 
 ### The Nginx configuration used was the following:
 
